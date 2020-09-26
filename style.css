@@ -13,7 +13,7 @@ span{
     display: inline-block;
 }
 .header-div-blank{
-    height: 20px;
+    height: 30px;
     background-color: #373737;
     margin: 0 auto;
 }
@@ -42,7 +42,7 @@ span{
     margin: 0 auto;
     display: block;
     padding: 5%;
-    height: 700px;
+    height: 680px;
 }
 
 .span-list-object{
@@ -64,4 +64,10 @@ span{
 .span-list:hover{
     background-color:#cfd8dc;
     transition: all 1s;
+}
+
+.footer-div-end{
+    height: 30px;
+    background-color: #373737;
+    margin: 0 auto;
 }
