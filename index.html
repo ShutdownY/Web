@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TodoList</title>
+</head>
+<template>
+    <li class="template-list">
+        <span class="span-list-object"></span>
+        <span class="span-list">☓</span>
+        <span class="span-list">↑</span>
+        <span class="span-list">↓</span>
+    </li>
+</template>
+<body>
+    <header>
+        <div class="header-div-blank"></div>
+        <div class="header-div-title">Todo List</div>
+    </header>
+    <main>
+        <p></p>
+        <div class="main-div">
+            <input type="text" class="main-input-text" placeholder="日程を入力してください。" maxlength="15">
+            <p></p>
+            <hr>
+            <ul class="main-ul-todolist">
+            </ul>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+</html>
