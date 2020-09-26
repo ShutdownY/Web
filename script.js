@@ -21,8 +21,6 @@ function Add(){
     textBox.value="";
 }
 
-
-
 todoListNotice.addEventListener("click",function(e){
     if(e.target.className != "span-list-object"){
         return;
@@ -39,7 +37,6 @@ todoListNotice.addEventListener("click",function(e){
     }
     e.target.parentElement.remove();
 });
-
 
 todoListNotice.addEventListener("click",function(e){
     if(e.target.textContent != "↑"){
